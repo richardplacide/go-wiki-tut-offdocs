@@ -1,0 +1,2 @@
+This is a second page for our wiki.
+Edited and saved from the frontend.

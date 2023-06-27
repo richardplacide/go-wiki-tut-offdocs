@@ -1,0 +1,2 @@
+Moved pages to data/ and templates to tmpl/
+Hurray!

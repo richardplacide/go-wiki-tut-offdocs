@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/assets/css/bulma.min.css">
+    </head>
+<h1 class="is-size-2 has-text-info">DasWiki - {{.Title}}</h1>
+
+
+<div class="container">
+    <h2 class="is-size-3 has-text-info">Pages</h2>
+    <ul>
+    {{range .PageList}}
+        <li>
+            <a href="/view/{{.}}">
+                [{{.}}]
+            </a>
+        </li>
+    {{end}}
+    </ul>
+</div>
+</html>
